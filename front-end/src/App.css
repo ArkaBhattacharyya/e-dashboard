@@ -8,7 +8,7 @@
 .nav-ul{
   padding: 5px;
   margin: 0;
-  background-color: skyblue;
+  background-color: #977549;
   text-align: left;
 }
 .nav-ul li{
@@ -23,7 +23,7 @@ padding: 10px;
 .footer{
   position: absolute;
   bottom: 0px;
-  background-color: skyblue;
+  background-color: #977549;
   width: 100%;
   text-align: center;
 }
@@ -36,14 +36,14 @@ padding: 10px;
   margin: 15px;
   padding: 10px;
   width: 300px;
-  border: 1px solid skyblue;
+  border: 1px solid #977549;
 
 }
 .Appbutton{
   margin: 25px;
   padding: 10px;
   width: 150px;
-  background-color: skyblue;
+  background-color: #977549;
   border: 1px solid;
   cursor: pointer;
   text-align: center;
@@ -52,7 +52,7 @@ padding: 10px;
   margin: 25px;
   padding: 10px;
   width: 150px;
-  background-color: skyblue;
+  background-color: #977549;
   border: 1px solid;
   cursor: pointer;
   float: left;
@@ -61,10 +61,42 @@ padding: 10px;
   margin-top: -70px;
   float: left;
 }
-.nav-right{
+.right-nav{
   text-align: right;
 }
+.logo{
+  width: 100px;
+  float: left;
+  padding: 5px;
+}
+.valid{
+  display: block;
+    margin-top: -10px;
+    color: red;
+    font-size: 12px;
+    margin-left: 15px;
+}
 
+.product-list ul li{
+  display: inline-block;
+  border: 1px solid #977549;
+  padding: 5px;
+  width: 150px;
+}
+.product-list ul li a{
+  border: 1px solid;
+    font-size: 12px;
+    padding: 4px;
+    text-decoration: none;
+    background-color: #ebebeb;
+    width: 54px;
+    height: auto;
+    margin-left: 7px;
+    color: black;
+}
+.product-list ul{
+  margin: 0px;
+}
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
